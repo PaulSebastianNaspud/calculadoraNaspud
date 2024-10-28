@@ -1,0 +1,13 @@
+<div>
+    <p>Ingrese un numero A</p>
+    <input type="number" [(ngModel)]="a">
+    <p>Ingrese un numero b</p>
+    <input type="number" [(ngModel)]="b">
+    
+    <p>Operaciones</p>
+    <button (click)="sum()">Suma</button>
+    <button (click)="resta()">Resta</button>
+    <button (click)="multi()">Multiplicaion</button>
+    <button (click)="div()">Divivision</button>
+    <p> Respuesta {{res}}</p>
+</div>
